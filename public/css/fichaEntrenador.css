@@ -1,0 +1,52 @@
+#list {
+    display: flow-root;
+    width: 960px;
+}
+
+.ficha {
+    width: 320px;
+    height: 180px;
+    background: rgb(136, 200, 176);
+    display: flow-root;
+    border-radius: 10px;
+    margin: 5px;
+    /* font-family: 'unown'; */
+    float: left;
+}
+
+.ficha h3 {
+    padding: 5px 15px;
+    font-weight: bold;
+    background: rgb(72, 160, 112);
+    border-radius: 10px 10px 0 0;
+}
+
+.ficha label, .ficha a {
+    width: 130px;
+    display: inline-block;
+    margin: 9px 13px;
+    border-radius: 50px;
+    background: rgb(176, 224, 200)
+}
+.ficha a{
+    background: rgb(72, 160, 112);
+    padding: 5px 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.ficha div {
+    width: 130px;
+    height: 95px;
+    float: right;
+    clear: both;
+    position: relative;
+    border: 1px solid;
+    margin: 9px 15px;
+    background: rgb(176, 224, 200);
+}
+
+.ficha div img {
+    max-width: 100%;
+    max-height: 100%;
+}
