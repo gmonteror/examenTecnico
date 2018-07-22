@@ -1,17 +1,39 @@
-@font-face{
+@font-face {
     font-family: unown;
-    src:url(../fonts/Unown.ttf);
+    src: url(../fonts/Unown.ttf);
 }
-.menuBar{
+
+.menuBar {
     background: #FE9126;
-    padding-left: 10px; 
+    padding-left: 10px;
 }
-.menuBar a{
+
+.menuBar a {
     display: inline-block;
     padding: 10px 34px;
     text-decoration: none;
     color: #ffffff;
 }
-.menuBar a:hover{
+
+.menuBar a:hover {
     text-decoration: underline;
+}
+
+.fLeft {
+    float: left;
+}
+
+.fRigth {
+    float: right;
+}
+.imgCont{
+    width: 100px;
+    height: 100px;
+}
+.imgCont img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.fmr{
+    width: 470px;
 }

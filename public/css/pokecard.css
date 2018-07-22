@@ -1,0 +1,259 @@
+.pokecard1 {
+    width: 135px;
+    height: 152px;
+    float: left;
+    padding: 13px 18px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.pokecard1 label {
+    border-radius: 50px;
+    width: 100px;
+    display: block;
+    margin-bottom: 5px;
+    padding: 0 2px;
+}
+
+.pokecard1 div:nth-child(2) {
+    width: 130px;
+    height: 86px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px
+}
+
+.pokecard1 div img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.pokecard1 div label {
+    width: 43%;
+    display: inline-block;
+}
+
+.bug {
+    background: #1e4a28;
+    color:#ffffff;
+}
+
+.bug label , .bug div:nth-child(2){
+    background: #3f9853;
+}
+label.bug{
+    background: #1e4a28 !important;
+    border: 2px solid #3f9853;
+    text-align: center;
+}
+
+.dark {
+    background: #040706;
+    color: #ffffff;
+}
+
+.dark label {
+    background: #5a5a78;
+    color: #ffffff;
+}
+label.dark{
+    background: #040706 !important;
+    border: 2px solid #5a5a78;
+    text-align: center;
+}
+
+.dragon {
+    background: #478b94;
+}
+
+.dragon label {
+    background: #66cad8;
+}
+label.dragon{
+    background: #478b94 !important;
+    border: 2px solid #66cad8;
+    text-align: center;
+}
+.electric {
+    background: #e3e141;
+}
+
+.electric label {
+    background: #fbf97b;
+}
+label.electric{
+    background: #e3e141 !important;
+    border: 2px solid #fbf97b;
+    text-align: center;
+}
+.fairy {
+    background: #951c45;
+}
+
+.fairy label {
+    background: #e71d6a;
+}
+label.fairy{
+    background: #951c45 !important;
+    border: 2px solid #e71d6a;
+    text-align: center;
+}
+.fighting {
+    background: #974028;
+}
+
+.fighting label {
+    background: #ed6240;
+}
+label.fighting{
+    background: #974028 !important;
+    border: 2px solid #ed6240;
+    text-align: center;
+}
+.fire {
+    background: #a92128;
+}
+
+.fire label {
+    background: #fa4e5e;
+}
+label.fire{
+    background: #a92128 !important;
+    border: 2px solid #fa4e5e;
+    text-align: center;
+}
+.flyin {
+    background: #4b677c;
+}
+
+.flyin label {
+    background: #94b2c6;
+}
+label.flyin{
+    background: #4b677c !important;
+    border: 2px solid #94b2c6;
+    text-align: center;
+}
+.ghost {
+    background: #333569;
+}
+
+.ghost label {
+    background: #8f688f;
+}
+label.ghost{
+    background: #333569 !important;
+    border: 2px solid #8f688f;
+    text-align: center;
+}
+.grass {
+    background: #1c7a3f;
+}
+
+.grass label {
+    background: #33c956;
+}
+label.grass{
+    background: #1c7a3f !important;
+    border: 2px solid #33c956;
+    text-align: center;
+}
+.ground {
+    background: #a87033;
+}
+
+.ground label {
+    background: #6d4923;
+}
+label.ground{
+    background: #a87033 !important;
+    border: 2px solid #6d4923;
+    text-align: center;
+}
+.ice {
+    background: #89d2f3;
+}
+
+.ice label {
+    background: #d9f0f9;
+}
+label.ice{
+    background: #89d2f3 !important;
+    border: 2px solid #d9f0f9;
+    text-align: center;
+}
+.normal {
+    background: #74515b;
+}
+
+.normal label {
+    background: #c999a7;
+}
+label.normal{
+    background: #74515b !important;
+    border: 2px solid #c999a7;
+    text-align: center;
+}
+.poison {
+    background: #5d3186;
+}
+
+.poison label {
+    background: #9a6dd6;
+}
+label.poison{
+    background: #5d3186 !important;
+    border: 2px solid #9a6dd6;
+    text-align: center;
+}
+.psychic {
+    background: #a32d6c;
+}
+
+.psychic label {
+    background: #f52791;
+}
+label.psychic{
+    background: #a32d6c !important;
+    border: 2px solid #f52791;
+    text-align: center;
+}
+.rock {
+    background: #47180d;
+}
+
+.rock label {
+    background: #8a3e25;
+}
+label.rock{
+    background: #47180d !important;
+    border: 2px solid #8a3e25;
+    text-align: center;
+}
+.steel {
+    background: #60756d;
+}
+
+.steel label {
+    background: #48bc95;
+}
+label.steel{
+    background: #60756d !important;
+    border: 2px solid #48bc95;
+    text-align: center;
+}
+.water {
+    background: #1c57de;
+}
+
+.water label {
+    background: #87aaf9;
+}
+label.water{
+    background: #1c57de !important;
+    border: 2px solid #87aaf9;
+    text-align: center;
+}
