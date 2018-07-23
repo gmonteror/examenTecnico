@@ -2,7 +2,9 @@
     font-family: unown;
     src: url(../fonts/Unown.ttf);
 }
-
+input, select{
+    border: 1px solid #cccccc;
+}
 a {
     cursor: pointer;
 }
@@ -40,11 +42,20 @@ h2 {}
 .imgCont {
     width: 50%;
     height: 200px;
+    position: relative;
 }
 
 .imgCont img {
     max-width: 100%;
     max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.imgCont a {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .fmr {
@@ -77,13 +88,19 @@ h2 {}
 .fmr select {
     width: 45%;
     border-radius: 5px;
-    border: 1px solid #cccccc;
+    text-align: center;
+    text-align-last: center;
+    outline: none;
+}
+
+.fmr option {
+    text-align: center;
+    text-align: left;
 }
 
 .fmr input {
     border-radius: 5px;
     width: 90%;
-    border: 1px solid #cccccc;
     outline: none;
     /* padding: 0 0 0 5px; */
 }
@@ -98,4 +115,8 @@ h2 {}
     border-radius: 5px;
     display: inline-block;
     color: #ffffff;
+}
+
+.fail {
+    border-bottom:1px solid tomato;
 }

@@ -125,7 +125,7 @@ label.fire{
     border: 2px solid #fa4e5e;
     text-align: center;
 }
-.flyin {
+.flying {
     background: #4b677c;
 }
 
@@ -223,6 +223,7 @@ label.psychic{
 }
 .rock {
     background: #47180d;
+    color: #ffffff;
 }
 
 .rock label {

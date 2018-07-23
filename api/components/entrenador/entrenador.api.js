@@ -1,6 +1,6 @@
 'use strict';
 
-const trainerModel = require('./client.model');
+const trainerModel = require('./entrenador.model');
 
 module.exports.registrar = function (req, res) {
 
