@@ -3,6 +3,16 @@
     src: url(../fonts/Unown.ttf);
 }
 
+a {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {}
+
 .menuBar {
     background: #FE9126;
     padding-left: 10px;
@@ -26,14 +36,66 @@
 .fRigth {
     float: right;
 }
-.imgCont{
-    width: 100px;
-    height: 100px;
+
+.imgCont {
+    width: 50%;
+    height: 200px;
 }
-.imgCont img{
+
+.imgCont img {
     max-width: 100%;
     max-height: 100%;
 }
-.fmr{
-    width: 470px;
+
+.fmr {
+    width: 648px;
+    border: 1px solid;
+    display: flow-root;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.fmr h1 {
+    text-align: center;
+}
+
+.fmr>div {
+    width: 50%;
+    /* border: 1px solid; */
+    margin: 0;
+    padding: 0;
+}
+
+.fmr div div label {
+    display: block;
+}
+
+.fmr div div {
+    margin-bottom: 5px;
+}
+
+.fmr select {
+    width: 45%;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+
+.fmr input {
+    border-radius: 5px;
+    width: 90%;
+    border: 1px solid #cccccc;
+    outline: none;
+    /* padding: 0 0 0 5px; */
+}
+
+.fmr p {
+    margin-bottom: 10px;
+}
+
+.btnRegistro {
+    padding: 5px;
+    background: #FE9126;
+    border-radius: 5px;
+    display: inline-block;
+    color: #ffffff;
 }
